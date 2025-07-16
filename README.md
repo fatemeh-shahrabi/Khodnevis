@@ -27,9 +27,7 @@ Taking structured notes from audio content can be time-consuming. Khodnevis simp
 - Whisper transcription + GPT content generation  
 - History panel to manage previous pamphlets  
 - Custom prompt input for personalized summaries  
-- Secure authentication and logout system  
-- Public welcome page and fully RTL user interface
-- 
+
 ---
 
 ## Project Status
