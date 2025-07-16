@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Vazir", sans-serif;
+    background-color: #f7fafc;
+    color: #2d3748;
+    direction: rtl;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Header */
+header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1a202c;
+}
+
+/* Card */
+.bg-white {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+/* File Upload */
+input[type="file"] {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    text-align: right;
+    background-color: #f7fafc;
+    transition: border-color 0.2s;
+}
+
+input[type="file"]:focus {
+    outline: none;
+    border-color: #4299e1;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    border: 1px solid #cbd5e0;
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #f7fafc;
+    text-align: right;
+    resize: vertical;
+    transition: border-color 0.2s;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #4299e1;
+}
+
+/* Button */
+button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4299e1;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #3182ce;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Loading State */
+.loading-state {
+    font-size: 1rem;
+    color: #4299e1;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Generated Pamphlet */
+.prose {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #2d3748;
+    background-color: #f7fafc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.prose h1, .prose h2, .prose h3 {
+    color: #2c5282;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.prose ul, .prose ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.prose ul li, .prose ol li {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.prose a {
+    color: #3182ce;
+    text-decoration: underline;
+}
+
+.prose a:hover {
+    text-decoration: none;
+}
+
+.prose blockquote {
+    border-right: 4px solid #cbd5e0;
+    padding-right: 1rem;
+    color: #718096;
+    font-style: italic;
+}
+
+.prose code {
+    background-color: #edf2f7;
+    border-radius: 0.375rem;
+    padding: 0.2rem 0.4rem;
+    font-family: monospace;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .p-8 {
+        padding: 1rem;
+    }
+
+    button {
+        width: 100%;
+    }
+}
