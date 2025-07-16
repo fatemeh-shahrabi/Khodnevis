@@ -40,7 +40,7 @@ In develope for better performance.
 
 All screenshots are in the [`screenshots`]([./screenshots](https://github.com/fatemeh-shahrabi/Khodnevis/blob/main/Screenshot) folder:
 
-| ![form](.Screenshot/form.png) | ![pamphlet](./Screenshot/pamphlet.png) |
+| ![form](./Screenshot/form.png) | ![pamphlet](./Screenshot/pamphlet.png) |
 |----------------------------------|------------------------------------------|
 
 ---
