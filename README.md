@@ -6,7 +6,7 @@ Khodnevis is an intelligent Persian-language web app that converts audio into st
 
 ## Project Overview
 
-Taking structured notes from audio content can be time-consuming. Khodnevis simplifies this by allowing users to upload audio files and receive clean, categorized pamphlets in minutes.
+Taking structured notes from audio content can be time-consuming. Khodnevis simplifies this by allowing users to upload audio files and receive clean, categorized pamphlets.
 
 ---
 
